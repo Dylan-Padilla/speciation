@@ -1,0 +1,63 @@
+---
+title: "Speciation<br/>"
+author: <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> Dylan Padilla <br/> Fall, 2022 <br/> `r icon_style(fontawesome("envelope", style = "solid"), scale = 1, fill = "skyblue")` dpadil10@asu.edu <br /> `r icon_style(fontawesome("link", style = "solid"), scale = 1, fill = "skyblue")` https://dylanpadilla.netlify.app/
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ['default', 'default.css']
+    seal: true
+    nature:
+      ratio: '16:9'
+      slideNumberFormat: '%current%' 
+      highlightStyle: ir-black
+      highlightLines: true
+      countIncrementalSlides: true
+---
+
+```{r setup, include=FALSE}
+require(rmarkdown)
+require(xaringan)
+require(xaringanExtra)
+require(knitr)
+require(icons)
+require(emo)
+options(htmltools.dir.version = FALSE)
+# preset code chunk options
+knitr::opts_chunk$set(dpi = 300,            # ensures high resolution images
+                      echo = FALSE,         # FALSE: code chunks don't show
+                      warning = FALSE,      # FALSE: suppresses warning messages
+                      error = FALSE,       # FALSE: Suppresses error messages
+                      fig.align = "center")
+
+```
+
+
+
+```{r xaringan-slide-tone, echo=FALSE}
+#xaringanExtra::use_slide_tone()
+```
+
+
+# Outline
+
+<br/>
+
+## Modes of speciation
+- Allopatric speciation
+- Sympatric speciation
+- Parapatric speciation
+
+--
+
+## Species concept
+- Biological concept
+- Phylogenetic concept
+- Phenetic concept
+- Evolutionary concept
+
+--
+
+## Limitations
+
+---
+

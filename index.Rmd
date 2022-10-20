@@ -1,0 +1,442 @@
+---
+title: "Speciation<br/>"
+author: <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> Dylan Padilla <br/> Fall, 2022 <br/> `r icon_style(fontawesome("envelope", style = "solid"), scale = 1, fill = "skyblue")` dpadil10@asu.edu <br /> `r icon_style(fontawesome("link", style = "solid"), scale = 1, fill = "skyblue")` https://dylanpadilla.netlify.app/
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ['default', 'default.css']
+    seal: true
+    nature:
+      ratio: '16:9'
+      slideNumberFormat: '%current%' 
+      highlightStyle: ir-black
+      highlightLines: true
+      countIncrementalSlides: true
+---
+
+```{r setup, include=FALSE}
+require(rmarkdown)
+require(xaringan)
+require(xaringanExtra)
+require(knitr)
+require(icons)
+require(emo)
+options(htmltools.dir.version = FALSE)
+# preset code chunk options
+knitr::opts_chunk$set(dpi = 300,            # ensures high resolution images
+                      echo = FALSE,         # FALSE: code chunks don't show
+                      warning = FALSE,      # FALSE: suppresses warning messages
+                      error = FALSE,       # FALSE: Suppresses error messages
+                      fig.align = "center")
+
+```
+
+
+
+```{r xaringan-slide-tone, echo=FALSE}
+#xaringanExtra::use_slide_tone()
+```
+
+
+# Outline
+
+<br/>
+
+## Mechanisms of isolation
+- Prezygotic
+- Postzygotic
+
+--
+
+## Modes of speciation
+- Allopatric speciation
+- Sympatric speciation
+- Parapatric speciation
+
+--
+
+## Limitations
+- Cryptic species
+
+
+---
+
+
+.pull-left[
+
+<img src = "imgs/tree_photos.jpeg" height = 590, width = 650>
+
+]
+
+
+<center>
+
+.pull-right[
+
+
+<img src = "imgs/orchids_tree.png" height = 600, width = 400>
+
+
+]
+
+</center>
+
+
+---
+class: center, middle
+
+
+# Why is the world strcutured like this? <br><br> How has this come about?
+
+
+
+---
+
+
+# Species
+
+<br>
+
+A group of organisms that are `r colorize("reproductively isolated", "orange")` from each other
+
+--
+
+<br>
+
+<center>
+What does `r colorize("reproductive isolation", "orange")` mean?
+</center>
+
+<br>
+
+--
+
+
+.pull-left[
+
+Prezygotic - prevent fertilization of eggs
+
+- Habitat isolation
+- Temporal isolation
+- Mechanical isolation
+- Gametic isolation
+- Behavioral isolation
+
+]
+
+--
+
+
+.pull-right[
+
+Postzygotic - prevent formation of fertile offspring
+
+- Hybrid inviability
+- Hybrid sterility
+- Hybrid breakdown
+
+]
+
+
+
+
+---
+
+# Prezygotic mechanisms of isolation
+
+
+
+.pull-left[
+
+<br><br><br>
+
+- Habitat isolation
+
+]
+
+--
+
+
+.pull-right[
+
+<br>
+
+![](imgs/habitat-isolation.gif)
+
+
+]
+
+---
+
+# Prezygotic mechanisms of isolation
+
+
+
+.pull-left[
+
+<br><br><br>
+
+- Habitat isolation
+- Temporal isolation
+
+]
+
+
+.pull-right[
+
+
+<img src = "imgs/temporal-isolation.gif" height = 200, width = 350>
+<img src = "imgs/temporal-isolation2.gif" height = 200, width = 350>
+
+
+]
+
+---
+
+# Prezygotic mechanisms of isolation
+
+
+
+.pull-left[
+
+<br><br><br>
+
+- Habitat isolation
+- Temporal isolation
+- Mechanical isolation
+
+]
+
+
+.pull-right[
+
+<img src = "imgs/mechanical-isolation.jpeg" height = 400, width = 430>
+
+
+]
+
+---
+
+# Prezygotic mechanisms of isolation
+
+
+
+.pull-left[
+
+<br><br><br>
+
+- Habitat isolation
+- Temporal isolation
+- Mechanical isolation
+- Gametic isolation
+
+]
+
+
+.pull-right[
+
+<br>
+
+<img src = "imgs/gametic-isolation.gif" height = 320, width = 500>
+
+
+]
+
+---
+
+# Prezygotic mechanisms of isolation
+
+
+
+.pull-left[
+
+<br><br><br>
+
+- Habitat isolation
+- Temporal isolation
+- Mechanical isolation
+- Gametic isolation
+- Behavioral isolation
+
+]
+
+
+.pull-right[
+
+<br>
+
+![](imgs/behavioral-isolation.gif)
+
+
+
+]
+
+
+---
+
+# Postzygotic mechanisms of isolation
+
+
+
+.pull-left[
+
+<br><br><br>
+
+- Hybrid inviability
+
+]
+
+
+.pull-right[
+
+
+
+]
+
+
+---
+
+# Postzygotic mechanisms of isolation
+
+
+
+.pull-left[
+
+<br><br><br>
+
+- Hybrid inviability
+- Hybrid sterility
+
+]
+
+
+.pull-right[
+
+
+![](imgs/mule.jpeg)
+
+
+]
+
+
+---
+
+# Postzygotic mechanisms of isolation
+
+
+
+.pull-left[
+
+<br><br><br>
+
+- Hybrid inviability
+- Hybrid sterility
+- Hybrid breakdown
+
+]
+
+
+.pull-right[
+
+
+<img src = "imgs/hybrid-breakdown.jpeg" height = 400, width = 500>
+
+
+]
+
+
+---
+class: center, middle
+
+
+# Modes of speciation
+
+
+---
+
+# Allopatric speciation
+
+<center>
+<img src = "imgs/allopatric-speciation.png" height = 500, width = 800>
+</center>
+
+
+---
+
+# Allopatric speciation
+
+
+<center>
+
+.pull-left[
+
+![](imgs/Drosophila.jpeg)
+
+]
+
+.pull-right[
+
+
+<img src = "imgs/allopatric-drosophila.png" height = 400, width = 400>
+</center>
+
+
+]
+
+---
+
+# Sympatric speciation
+
+
+<center>
+
+.pull-left[
+
+<img src = "imgs/sympatric-speciation1.jpeg" height = 450, width = 300>
+
+]
+
+.pull-right[
+
+
+![](imgs/sympatric-speciation2.png)
+
+</center>
+
+
+]
+
+---
+
+# Parapatric speciation
+
+<br>
+
+<center>
+
+<img src = "imgs/parapatric-speciation.png" height = 400, width = 590>
+
+</center>
+
+
+
+---
+
+# Limitations - Cryptic species
+
+
+
+<center>
+
+<img src = "imgs/cryptic-species.jpeg" height = 500, width = 570>
+
+</center>
+
+
+---
+class: center, middle
+
+
+# Time for the worksheet questions!
+
+
