@@ -114,7 +114,7 @@ What does `r colorize("reproductive isolation", "orange")` mean?
 
 .pull-left[
 
-Prezygotic - prevent fertilization of eggs
+`r colorize("Prezygotic", "purple")` - prevent fertilization of eggs
 
 - Habitat isolation
 - Temporal isolation
@@ -129,7 +129,7 @@ Prezygotic - prevent fertilization of eggs
 
 .pull-right[
 
-Postzygotic - prevent formation of fertile offspring
+`r colorize("Postzygotic", "skyblue")` - prevent formation of fertile offspring
 
 - Hybrid inviability
 - Hybrid sterility
@@ -142,7 +142,7 @@ Postzygotic - prevent formation of fertile offspring
 
 ---
 
-# Prezygotic mechanisms of isolation
+# `r colorize("Prezygotic", "purple")` mechanisms of isolation
 
 
 
@@ -168,7 +168,7 @@ Postzygotic - prevent formation of fertile offspring
 
 ---
 
-# Prezygotic mechanisms of isolation
+# `r colorize("Prezygotic", "purple")` mechanisms of isolation
 
 
 
@@ -193,7 +193,7 @@ Postzygotic - prevent formation of fertile offspring
 
 ---
 
-# Prezygotic mechanisms of isolation
+# `r colorize("Prezygotic", "purple")` mechanisms of isolation
 
 
 
@@ -217,7 +217,7 @@ Postzygotic - prevent formation of fertile offspring
 
 ---
 
-# Prezygotic mechanisms of isolation
+# `r colorize("Prezygotic", "purple")` mechanisms of isolation
 
 
 
@@ -244,7 +244,7 @@ Postzygotic - prevent formation of fertile offspring
 
 ---
 
-# Prezygotic mechanisms of isolation
+# `r colorize("Prezygotic", "purple")` mechanisms of isolation
 
 
 
@@ -274,7 +274,7 @@ Postzygotic - prevent formation of fertile offspring
 
 ---
 
-# Postzygotic mechanisms of isolation
+# `r colorize("Postzygotic", "skyblue")` mechanisms of isolation
 
 
 
@@ -296,7 +296,7 @@ Postzygotic - prevent formation of fertile offspring
 
 ---
 
-# Postzygotic mechanisms of isolation
+# `r colorize("Postzygotic", "skyblue")` mechanisms of isolation
 
 
 
@@ -321,7 +321,7 @@ Postzygotic - prevent formation of fertile offspring
 
 ---
 
-# Postzygotic mechanisms of isolation
+# `r colorize("Postzygotic", "skyblue")` mechanisms of isolation
 
 
 
